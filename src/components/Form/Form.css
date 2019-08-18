@@ -1,0 +1,24 @@
+.Form-container {
+  width: 350px;
+}
+
+.submit {
+  background-color: #008cba;
+  border: 1px solid #008cba;
+  margin: 10px 0 50px 0;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #008cba;
+  font-size: 16px;
+}
