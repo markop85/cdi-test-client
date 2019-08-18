@@ -15,7 +15,9 @@ export default function Comments() {
         </div>
       </div>
     );
-  } else {
+  } else if(!state.length) {
+    return <div>no result found</div>;
+  }else{
     return <div>loading comments.....</div>;
   }
 }
